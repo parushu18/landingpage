@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Landing Page</title>
+  <style>
+    /* Reset some default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: rgb(62, 55, 196);
+      text-decoration: none;
+    }
+
+    /* Style the hero section */
+    .hero {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .hero h1 {
+      margin-bottom: 20px;
+    }
+
+    /* Style the features section */
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 0;
+    }
+
+    .feature {
+      flex: 1;
+      text-align: center;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat massa quis urna tincidunt, in sodales neque tristique.</p>
+    <a href="#" class="btn">Learn More</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Feature 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature 2</h2>
+      <p>Nullam consequat massa quis urna tincidunt, in sodales neque tristique.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature 3</h2>
+      <p>Phasellus scelerisque urna vel sapien vehicula, eget tempus risus porttitor.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
